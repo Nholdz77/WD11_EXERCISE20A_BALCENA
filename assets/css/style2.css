@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  body {
+   font-family: 'Poppins', sans-serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+  }
+  #gameContainer{
+    background-color: aquamarine;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+  }
+  #gamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .imgbox{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+  }
+
+.group-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+  .last-btn{
+    padding: 1rem;
+  }
