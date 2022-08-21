@@ -50,26 +50,26 @@ function resultFunction() {
     playText1.innerHTML == "Paper" &&
     playText2.innerHTML == "Scissor"
   ) {
-    playResult.innerHTML = "You Lost! Play Again";
+    playResult.innerHTML = "1Player is Lost! Play Again";
   } else if (playText1.innerHTML == "Paper" && playText2.innerHTML == "Rock") {
-    playResult.innerHTML = "You Win! Play Again";
+    playResult.innerHTML = "1Player is the Winner! Play Again";
   } else if (
     playText1.innerHTML == "Scissor" &&
     playText2.innerHTML == "Rock"
   ) {
-    playResult.innerHTML = "You Lost! Play Again";
+    playResult.innerHTML = "1Player is Lost! Play Again";
   } else if (
     playText1.innerHTML == "Scissor" &&
     playText2.innerHTML == "Paper"
   ) {
-    playResult.innerHTML = "You Win! Play Again";
+    playResult.innerHTML = "1Player is the Winner! Play Again";
   } else if (playText1.innerHTML == "Rock" && playText2.innerHTML == "Paper") {
-    playResult.innerHTML = "You Lost! Play Again";
+    playResult.innerHTML = "1Player is Lost! Play Again";
   } else if (
     playText1.innerHTML == "Rock" &&
     playText2.innerHTML == "Scissor"
   ) {
-    playResult.innerHTML = "You Win! Play Again";
+    playResult.innerHTML = "1Player is the Winner! Play Again";
   }
 }
 
